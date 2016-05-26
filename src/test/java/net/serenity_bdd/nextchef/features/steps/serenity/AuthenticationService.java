@@ -8,7 +8,7 @@ import org.junit.Assert;
 /**
  * Created by apium on 16/05/2016.
  */
-public class AuthenticationSteps {
+public class AuthenticationService {
     LoginPage loginPage;
     WorkspacePage workspacePage;
 

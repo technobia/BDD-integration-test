@@ -1,19 +1,18 @@
 package net.serenity_bdd.nextchef.features.steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.serenity_bdd.nextchef.features.steps.serenity.AuthenticationSteps;
+import net.serenity_bdd.nextchef.features.steps.serenity.AuthenticationService;
 import net.thucydides.core.annotations.Steps;
 
 /**
  * Created by apium on 16/05/2016.
  */
-public class SigninStepDefinitions {
+public class SigninSteps {
     @Steps
-    AuthenticationSteps authentication;
+    AuthenticationService authentication;
 
     @Given("^At the login page$")
     public void atTheHomePage() throws Throwable {
