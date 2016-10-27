@@ -1,4 +1,4 @@
-Cl3ver Integration Test
+BDD Integration Test
 =======================
 ```
 ./gradlew --continue clean test aggregate
